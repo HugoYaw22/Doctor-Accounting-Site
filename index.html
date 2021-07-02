@@ -6,12 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
 
         <title>Doctor Accounting</title>
     </head>
 
-    <body">
+    <body>
         <!-- start nav -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
@@ -51,8 +52,8 @@
         <!-- end nav -->
 
         <!-- start about -->
-        <div class="section bg-secondary mt-5">
-            <div class="container mt-5">
+        <section class="about pb-1" id="about">
+            <div class="container my-5">
                 <div class="row mb-3">
                     <div class="col text-center">
                         <h1 class="mt-4">Tentang Doctor Accounting</h1>
@@ -214,11 +215,11 @@
                     </div>
                 </div>
     
-                <div class="row">
+                <div class="row mb-5">
                     <div class="col">
                         <p>
                             <a class="btn btn-dark" data-bs-toggle="collapse" href="#dimana" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                Dimana lokasi office Doctor Accounting?
+                                Dimana Lokasi Office Doctor Accounting?
                             </a>
                         </p>
                         <div class="collapse" id="dimana">
@@ -231,303 +232,348 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         
         <!-- end about -->
 
         <!-- start price list -->
-        <div class="section bg-secondary">
+        <div class="section" id="price-list">
             <div class="container mt-5">
                 <div class="card text-dark bg-light">
                     <div class="card-header"><h1 class="text-center">Nilai Investasi</h1></div>
-    
-                    <div class="card-body">
-                        <div class="row mb-5">
+                    
+                    <div class="container mt-3">
+                        <div class="row">
                             <div class="col">
-                                <div class="card text-dark bg-light">
-                                    <div class="card-header"><h5>Perdagangan Standard</h5></div>
-                                    <div class="card-body">
-                                        <p class="card-text">
-                                            <p>+ Multi Operator (Bisa Digunakan Oleh Lebih Dari Satu Pemakai) <br />+ Berbagai Macam Satuan / Kemasan Product (Pcs -&gt; Pack, Gram -&gt; Ons -&gt; Kg, Pcs -&gt; Lusin, Meter -&gt; Roll, dll&hellip;) + Product Discount Per Quantity <br />+ Product Discount Per Kelompok Pelanggan <br />+ Pencatatan Penyesuaian Stock <br />+ Pencatatan Purchase Order (PO) <br />+ Pencatatan Pembelian <br />+ Pencatatan Retur Pembelian <br />+ Pencatatan Penawaran Penjualan <br />+ Pencatatan Sales Order (SO) <br />+ Pencatatan Penjualan <br />+ Pencatatan Piutang Penjualan <br />+ Pencatatan Retur Penjualan <br />+ Pencatatan Kelebihan Penjualan <br />+ Pencatatan Laporan Log Pelanggan <br />+ Laporan Stock <br />+ Laporan Kartu Stock <br />+ Laporan Analisa Stock <br />+ Laporan Pembuktian HPP <br />+ Laporan Laba Rugi </p>    
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <div class="row">
-                                            <div class="col-sm-5">Free Training : 3x</div>
-                                            <div class="col-sm fw-bold">Sistem Beli : Rp. 3.500.000</div>
-                                            <div class="col-sm fw-bold">Sistem Sewa : Rp. 150.000 / bln</div>
+
+                                <p>
+                                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#perdagangan-standard" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Perdagangan Standard
+                                    </a>
+                                </p>
+                                <div class="collapse" id="perdagangan-standard">
+                                    <div class="card mb-5">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <p>+ Multi Operator (Bisa Digunakan Oleh Lebih Dari Satu Pemakai) <br />+ Berbagai Macam Satuan / Kemasan Product (Pcs -&gt; Pack, Gram -&gt; Ons -&gt; Kg, Pcs -&gt; Lusin, Meter -&gt; Roll, dll&hellip;) <br />+ Product Discount Per Quantity <br />+ Product Discount Per Kelompok Pelanggan <br />+ Pencatatan Penyesuaian Stock <br />+ Pencatatan Purchase Order (PO) <br />+ Pencatatan Pembelian <br />+ Pencatatan Retur Pembelian <br />+ Pencatatan Penawaran Penjualan <br />+ Pencatatan Sales Order (SO) <br />+ Pencatatan Penjualan <br />+ Pencatatan Piutang Penjualan <br />+ Pencatatan Retur Penjualan <br />+ Pencatatan Kelebihan Penjualan <br />+ Pencatatan Laporan Log Pelanggan <br />+ Laporan Stock <br />+ Laporan Kartu Stock <br />+ Laporan Analisa Stock <br />+ Laporan Pembuktian HPP <br />+ Laporan Laba Rugi </p>    
+                                            </p>
                                         </div>
-                                    </div>
-                                </div>                    
-                            </div>
-                        </div>
-            
-                        <div class="row mb-5">
-                            <div class="col">
-                                <div class="card text-dark bg-light">
-                                    <div class="card-header"><h5>Multi Gudang</h5></div>
-                                    <div class="card-body">
-                                        <p class="card-text">
-                                            <p>Pencatatan Lebih Dari Satu Gudang / Lokasi Stock </p>
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <div class="row">
-                                            <div class="col-sm-5">Free Training : 1x</div>
-                                            <div class="col-sm fw-bold">Sistem Beli : Rp. 2.000.000</div>
-                                            <div class="col-sm fw-bold">Sistem Sewa : Rp. 100.000 / bln</div>
-                                        </div>
-                                    </div>
-                                </div>                    
-                            </div>
-                        </div>
-            
-                        <div class="row mb-5">
-                            <div class="col">
-                                <div class="card text-dark bg-light">
-                                    <div class="card-header"><h5>Salesman</h5></div>
-                                    <div class="card-body">
-                                        <p class="card-text">
-                                            <p>+ Pencatatan Wilayah Penjualan <br />+ Pencatatan Nama Salesman</p>
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <div class="row">
-                                            <div class="col-sm-5">Free Training : 1x</div>
-                                            <div class="col-sm fw-bold">Sistem Beli : Rp. 1.000.000</div>
-                                            <div class="col-sm fw-bold">Sistem Sewa : Rp. 100.000 / bln</div>
-                                        </div>
-                                    </div>
-                                </div>                    
-                            </div>
-                        </div>
-            
-                        <div class="row mb-5">
-                            <div class="col">
-                                <div class="card text-dark bg-light">
-                                    <div class="card-header"><h5>Multi Kelompok Pelanggan</h5></div>
-                                    <div class="card-body">
-                                        <p class="card-text">
-                                            <p>+ Pencatatan penjualan untuk setiap kelompok pelanggan yang berbeda (End User, Semi Grosir, Grosir, dsb&hellip;) / (Tokopedia, Bukalapak, Shopee, dsb&hellip;)<br />+ Pencatatan discount yang berbeda untuk setiap kelompok pelanggan. </p>
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <div class="row">
-                                            <div class="col-sm-5">Free Training : 2x</div>
-                                            <div class="col-sm fw-bold">Sistem Beli : Rp. 1.500.000</div>
-                                            <div class="col-sm fw-bold">Sistem Sewa : Rp. 100.000 / bln</div>
-                                        </div>
-                                    </div>
-                                </div>                    
-                            </div>
-                        </div>
-            
-                        <div class="row mb-5">
-                            <div class="col">
-                                <div class="card text-dark bg-light">
-                                    <div class="card-header"><h5>Jasa</h5></div>
-                                    <div class="card-body">
-                                        <p class="card-text">
-                                            <p>+ Pencatatan Product Jasa <br />+ Pencatatan Komposisi Product Jasa </p>
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <div class="row">
-                                            <div class="col-sm-5">Free Training : 3x</div>
-                                            <div class="col-sm fw-bold">Sistem Beli : Rp. 1.500.000</div>
-                                            <div class="col-sm fw-bold">Sistem Sewa : Rp. 100.000 / bln</div>
-                                        </div>
-                                    </div>
-                                </div>                    
-                            </div>
-                        </div>
-            
-                        <div class="row mb-5">
-                            <div class="col">
-                                <div class="card text-dark bg-light">
-                                    <div class="card-header"><h5>PPN</h5></div>
-                                    <div class="card-body">
-                                        <p class="card-text">
-                                            <p>+ Pencatatan Penyesuaian Hutang PPN<br />+ Pencatatan Penyesuaian Piutang PPN<br />+ Pencatatan PPN Pembelian<br />+ Pencatatan Pembayaran Hutang PPN melalui Piutang PPN<br />+ Laporan Arus PPN Keluar Masuk</p>
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <div class="row">
-                                            <div class="col-sm-5">Free Training : 6x</div>
-                                            <div class="col-sm fw-bold">Sistem Beli : Rp. 3.000.000</div>
-                                            <div class="col-sm fw-bold">Sistem Sewa : Rp. 200.000 / bln</div>
-                                        </div>
-                                    </div>
-                                </div>                    
-                            </div>
-                        </div>
-            
-                        <div class="row mb-5">
-                            <div class="col">
-                                <div class="card text-dark bg-light">
-                                    <div class="card-header"><h5>Point Penjualan</h5></div>
-                                    <div class="card-body">
-                                        <p class="card-text">
-                                            <p>+ Pencatatan Point Penjualan <br />+ Laporan Point Penjualan Per Pelanggan</p>
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <div class="row">
-                                            <div class="col-sm-5">Free Training : 4x</div>
-                                            <div class="col-sm fw-bold">Sistem Beli : Rp. 2.000.000</div>
-                                            <div class="col-sm fw-bold">Sistem Sewa : Rp. 100.000 / bln</div>
-                                        </div>
-                                    </div>
-                                </div>                    
-                            </div>
-                        </div>
-            
-                        <div class="row mb-5">
-                            <div class="col">
-                                <div class="card text-dark bg-light">
-                                    <div class="card-header"><h5>Hutang Piutang</h5></div>
-                                    <div class="card-body">
-                                        <p class="card-text">
-                                            <p>+ Pencatatan Biaya Langsung Terhutang (Apabila mengambil modul keuangan)<br />+ Pencatatan Hutang Biaya Dibayar Dimuka (Apabila mengambil modul keuangan)<br />+ Pencatatan Piutang Pendapatan Langsung (Apabila mengambil modul keuangan)<br />+ Pencatatan Piutang Pendapatan Dibayar Dimuka (Apabila mengambil modul keuangan)<br />+ Pencatatan Hutang Pembelian Aset (Apabila mengambil modul keuangan)<br />+ Pencatatan Piutang Penjualan Aset (Apabila mengambil modul keuangan)<br />+ Pencatatan Piutang Uang Muka Purchase Order (PO) <br />+ Pencatatan Hutang Pembelian <br />+ Pencatatan Piutang Retur Pembelian <br />+ Pencatatan Hutang Biaya Langsung Proses Produksi (Apabila mengambil modul proses produksi)<br />+ Pencatatan Hutang Biaya Periode Proses Produksi (Apabila mengambil modul proses produksi)<br />+ Pencatatan Hutang Uang Muka Sales Order (SO) <br />+ Pencatatan Piutang Penjualan <br />+ Pencatatan Hutang Bahan Tambahan Penjualan <br />+ Pencatatan Piutang Retur Penjualan <br />+ Pencatatan Hutang Dari Pencairan Pihak Lain Baik Yang Sudah Berjalan Maupun Yang Baru Dicairkan (Hutang Bank, dsb&hellip;)<br />+ Pencatatan Piutang Dari Pencairan Pihak Lain Baik Yang Sudah Berjalan Maupun Yang Baru Dicairkan (Kasbon Karyawan, dsb&hellip;)<br />+ Mendukung pencatatan pembayaran lebih dari 1 kali angsuran</p>
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <div class="row">
-                                            <div class="col-sm-5">Free Training : 4x</div>
-                                            <div class="col-sm fw-bold">Sistem Beli : Rp. 4.000.000</div>
-                                            <div class="col-sm fw-bold">Sistem Sewa : Rp. 200.000 / bln</div>
-                                        </div>
-                                    </div>
-                                </div>                    
-                            </div>
-                        </div>
-            
-                        <div class="row mb-5">
-                            <div class="col">
-                                <div class="card text-dark bg-light">
-                                    <div class="card-header"><h5>Proses Produksi (Manufaktur)</h5></div>
-                                    <div class="card-body">
-                                        <p class="card-text">
-                                            <p>+ Pencatatan Informasi Surat Perintah Kerja <br />+ Pencatatan Informasi Kepala Produksi <br />+ Pencatatan Informasi Pelaksana Produksi <br />+ Pencatatan Kelompok Proses Produksi <br />+ Pencatatan Proses Produksi (Mendukung Proses Produksi One To Many, One To One, Many To Many, Many To One)<br />+ Pencatatan Resep Produksi (Mendukung Multi Step Proses Produksi)<br />+ Pencatatan Biaya Langsung Terkait Proses Produksi <br />+ Pencatatan Biaya Periode Terkait Proses Produksi (Gaji Karyawan, Listrik, dsb&hellip;)</p>
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <div class="row">
-                                            <div class="col-sm-5">Free Training : 3x</div>
-                                            <div class="col-sm fw-bold">Sistem Beli : Rp. 7.500.000</div>
-                                            <div class="col-sm fw-bold">Sistem Sewa : Rp. 250.000 / bln</div>
-                                        </div>
-                                    </div>
-                                </div>                    
-                            </div>
-                        </div>
-            
-                        <div class="row mb-5">
-                            <div class="col">
-                                <div class="card text-dark bg-light">
-                                    <div class="card-header"><h5>Proyek</h5></div>
-                                    <div class="card-body">
-                                        <p class="card-text">
-                                                <p>+ Pencatatan Pekerjaan Berdasarkan Proyek</p>
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <div class="row">
-                                            <div class="col-sm-5">Free Training : 1x</div>
-                                            <div class="col-sm fw-bold">Sistem Beli : Rp. 1.500.000</div>
-                                            <div class="col-sm fw-bold">Sistem Sewa : Rp. 100.000 / bln</div>
-                                        </div>
-                                    </div>
-                                </div>                    
-                            </div>
-                        </div>
-            
-                        <div class="row mb-3">
-                            <div class="col">
-                                <div class="card text-dark bg-light">
-                                    <div class="card-header"><h5>Accounting</h5></div>
-                                    <div class="card-body">
-                                        <p class="card-text">
-                                            <p>+ Pencatatan Biaya Tambahan Dalam Pembelian (Ongkos Angkut / Ongkos Bongkar, dsb &hellip;) <br />+ Pencatatan Refund Pembelian (Proteksi Harga, dsb&hellip;) <br />+ Pencatatan Biaya Tambahan Dalam Penjualan (Ongkos Angkut / Ongkos Bongkar, dsb &hellip;) <br />+ Pencatatan Rekening (Kas Kecil, Kas Besar, Bank BCA, Bank Mandiri, dsb &hellip;) <br />+ Pencatatan Modal <br />+ Pencatatan Prive <br />+ Pencatatan Biaya Langsung (Gaji Karyawan, Listrik, PDAM, dsb&hellip;) <br />+ Pencatatan Biaya Dibayar Dimuka (Sewa Ruko, Iklan Per Tahun, dsb&hellip;) <br />+ Pencatatan Pendapatan (Bonus Supplier, Bunga Bank, dsb&hellip;) <br />+ Pencatatan Pendapatan Dibayar Dimuka (Sewa Baliho Tahunan, Pembayaran Kontrak Tahunan, dsb&hellip;) <br />+ Pencatatan Mutasi Saldo Antar Kas <br />+ Pencatatan Penyesuaian Jumlah Aset <br />+ Pencatatan Pembelian Aset <br />+ Pencatatan Penjualan Aset <br />+ Laporan Arus Kas Keluar Masuk <br />+ Laporan Transaksi Jurnal Umum <br />+ Laporan Buku Besar <br />+ Laporan Neraca Saldo <br />+ Laporan Neraca</p>
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <div class="row">
-                                            <div class="col-sm-5">Free Training : 3x</div>
-                                            <div class="col-sm fw-bold">Sistem Beli : Rp. 3.500.000</div>
-                                            <div class="col-sm fw-bold">Sistem Sewa : Rp. 200.000 / bln</div>
+
+                                        <div class="card-footer">
+                                            <div class="row">
+                                                <div class="col-sm-5">Free Training : 3x</div>
+                                                <div class="col-sm fw-bold">Sistem Beli : Rp. 3.500.000</div>
+                                                <div class="col-sm fw-bold">Sistem Sewa : Rp. 150.000 / bln</div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+
+                                <p>
+                                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#multi-gudang" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Multi Gudang
+                                    </a>
+                                </p>
+                                <div class="collapse" id="multi-gudang">
+                                    <div class="card mb-5">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <p>Pencatatan Lebih Dari Satu Gudang / Lokasi Stock </p>
+                                            </p>
+                                        </div>
+
+                                        <div class="card-footer">
+                                            <div class="row">
+                                                <div class="col-sm-5">Free Training : 1x</div>
+                                                <div class="col-sm fw-bold">Sistem Beli : Rp. 2.000.000</div>
+                                                <div class="col-sm fw-bold">Sistem Sewa : Rp. 100.000 / bln</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#salesman" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Salesman
+                                    </a>
+                                </p>
+                                <div class="collapse" id="salesman">
+                                    <div class="card mb-5">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <p>+ Pencatatan Wilayah Penjualan <br />+ Pencatatan Nama Salesman</p>
+                                            </p>
+                                        </div>
+
+                                        <div class="card-footer">
+                                            <div class="row">
+                                                <div class="col-sm-5">Free Training : 1x</div>
+                                                <div class="col-sm fw-bold">Sistem Beli : Rp. 1.000.000</div>
+                                                <div class="col-sm fw-bold">Sistem Sewa : Rp. 100.000 / bln</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#multi-kelompok-pelanggan" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Multi Kelompok Pelanggan
+                                    </a>
+                                </p>
+                                <div class="collapse" id="multi-kelompok-pelanggan">
+                                    <div class="card mb-5">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <p>+ Pencatatan penjualan untuk setiap kelompok pelanggan yang berbeda (End User, Semi Grosir, Grosir, dsb&hellip;) / (Tokopedia, Bukalapak, Shopee, dsb&hellip;)<br />+ Pencatatan discount yang berbeda untuk setiap kelompok pelanggan. </p>
+                                            </p>
+                                        </div>
+
+                                        <div class="card-footer">
+                                            <div class="row">
+                                                <div class="col-sm-5">Free Training : 2x</div>
+                                                <div class="col-sm fw-bold">Sistem Beli : Rp. 1.500.000</div>
+                                                <div class="col-sm fw-bold">Sistem Sewa : Rp. 100.000 / bln</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#jasa" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Jasa
+                                    </a>
+                                </p>
+                                <div class="collapse" id="jasa">
+                                    <div class="card mb-5">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <p>+ Pencatatan Product Jasa <br />+ Pencatatan Komposisi Product Jasa </p>
+                                            </p>
+                                        </div>
+
+                                        <div class="card-footer">
+                                            <div class="row">
+                                                <div class="col-sm-5">Free Training : 3x</div>
+                                                <div class="col-sm fw-bold">Sistem Beli : Rp. 1.500.000</div>
+                                                <div class="col-sm fw-bold">Sistem Sewa : Rp. 100.000 / bln</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#ppn" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        PPN
+                                    </a>
+                                </p>
+                                <div class="collapse" id="ppn">
+                                    <div class="card mb-5">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <p>+ Pencatatan Penyesuaian Hutang PPN<br />+ Pencatatan Penyesuaian Piutang PPN<br />+ Pencatatan PPN Pembelian<br />+ Pencatatan Pembayaran Hutang PPN melalui Piutang PPN<br />+ Laporan Arus PPN Keluar Masuk</p>
+                                            </p>
+                                        </div>
+
+                                        <div class="card-footer">
+                                            <div class="row">
+                                                <div class="col-sm-5">Free Training : 6x</div>
+                                                <div class="col-sm fw-bold">Sistem Beli : Rp. 3.000.000</div>
+                                                <div class="col-sm fw-bold">Sistem Sewa : Rp. 200.000 / bln</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#point-penjualan" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Point Penjualan
+                                    </a>
+                                </p>
+                                <div class="collapse" id="point-penjualan">
+                                    <div class="card mb-5">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <p>+ Pencatatan Point Penjualan <br />+ Laporan Point Penjualan Per Pelanggan</p>
+                                            </p>
+                                        </div>
+
+                                        <div class="card-footer">
+                                            <div class="row">
+                                                <div class="col-sm-5">Free Training : 4x</div>
+                                                <div class="col-sm fw-bold">Sistem Beli : Rp. 2.000.000</div>
+                                                <div class="col-sm fw-bold">Sistem Sewa : Rp. 100.000 / bln</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#hutang-piutang" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Hutang Piutang
+                                    </a>
+                                </p>
+                                <div class="collapse" id="hutang-piutang">
+                                    <div class="card mb-5">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <p>+ Pencatatan Biaya Langsung Terhutang (Apabila mengambil modul keuangan)<br />+ Pencatatan Hutang Biaya Dibayar Dimuka (Apabila mengambil modul keuangan)<br />+ Pencatatan Piutang Pendapatan Langsung (Apabila mengambil modul keuangan)<br />+ Pencatatan Piutang Pendapatan Dibayar Dimuka (Apabila mengambil modul keuangan)<br />+ Pencatatan Hutang Pembelian Aset (Apabila mengambil modul keuangan)<br />+ Pencatatan Piutang Penjualan Aset (Apabila mengambil modul keuangan)<br />+ Pencatatan Piutang Uang Muka Purchase Order (PO) <br />+ Pencatatan Hutang Pembelian <br />+ Pencatatan Piutang Retur Pembelian <br />+ Pencatatan Hutang Biaya Langsung Proses Produksi (Apabila mengambil modul proses produksi)<br />+ Pencatatan Hutang Biaya Periode Proses Produksi (Apabila mengambil modul proses produksi)<br />+ Pencatatan Hutang Uang Muka Sales Order (SO) <br />+ Pencatatan Piutang Penjualan <br />+ Pencatatan Hutang Bahan Tambahan Penjualan <br />+ Pencatatan Piutang Retur Penjualan <br />+ Pencatatan Hutang Dari Pencairan Pihak Lain Baik Yang Sudah Berjalan Maupun Yang Baru Dicairkan (Hutang Bank, dsb&hellip;)<br />+ Pencatatan Piutang Dari Pencairan Pihak Lain Baik Yang Sudah Berjalan Maupun Yang Baru Dicairkan (Kasbon Karyawan, dsb&hellip;)<br />+ Mendukung pencatatan pembayaran lebih dari 1 kali angsuran</p>
+                                            </p>
+                                        </div>
+
+                                        <div class="card-footer">
+                                            <div class="row">
+                                                <div class="col-sm-5">Free Training : 4x</div>
+                                                <div class="col-sm fw-bold">Sistem Beli : Rp. 4.000.000</div>
+                                                <div class="col-sm fw-bold">Sistem Sewa : Rp. 200.000 / bln</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#manufaktur" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Proses Produksi (Manufaktur)
+                                    </a>
+                                </p>
+                                <div class="collapse" id="manufaktur">
+                                    <div class="card mb-5">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <p>+ Pencatatan Informasi Surat Perintah Kerja <br />+ Pencatatan Informasi Kepala Produksi <br />+ Pencatatan Informasi Pelaksana Produksi <br />+ Pencatatan Kelompok Proses Produksi <br />+ Pencatatan Proses Produksi (Mendukung Proses Produksi One To Many, One To One, Many To Many, Many To One)<br />+ Pencatatan Resep Produksi (Mendukung Multi Step Proses Produksi)<br />+ Pencatatan Biaya Langsung Terkait Proses Produksi <br />+ Pencatatan Biaya Periode Terkait Proses Produksi (Gaji Karyawan, Listrik, dsb&hellip;)</p>
+                                            </p>
+                                        </div>
+
+                                        <div class="card-footer">
+                                            <div class="row">
+                                                <div class="col-sm-5">Free Training : 3x</div>
+                                                <div class="col-sm fw-bold">Sistem Beli : Rp. 7.500.000</div>
+                                                <div class="col-sm fw-bold">Sistem Sewa : Rp. 250.000 / bln</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#proyek" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Proyek
+                                    </a>
+                                </p>
+                                <div class="collapse" id="proyek">
+                                    <div class="card mb-5">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <p>+ Pencatatan Pekerjaan Berdasarkan Proyek</p>
+                                            </p>
+                                        </div>
+
+                                        <div class="card-footer">
+                                            <div class="row">
+                                                <div class="col-sm-5">Free Training : 1x</div>
+                                                <div class="col-sm fw-bold">Sistem Beli : Rp. 1.500.000</div>
+                                                <div class="col-sm fw-bold">Sistem Sewa : Rp. 100.000 / bln</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#multi-kelompok-pelanggan" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Accounting
+                                    </a>
+                                </p>
+                                <div class="collapse" id="multi-kelompok-pelanggan">
+                                    <div class="card mb-5">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <p>+ Pencatatan Biaya Tambahan Dalam Pembelian (Ongkos Angkut / Ongkos Bongkar, dsb &hellip;) <br />+ Pencatatan Refund Pembelian (Proteksi Harga, dsb&hellip;) <br />+ Pencatatan Biaya Tambahan Dalam Penjualan (Ongkos Angkut / Ongkos Bongkar, dsb &hellip;) <br />+ Pencatatan Rekening (Kas Kecil, Kas Besar, Bank BCA, Bank Mandiri, dsb &hellip;) <br />+ Pencatatan Modal <br />+ Pencatatan Prive <br />+ Pencatatan Biaya Langsung (Gaji Karyawan, Listrik, PDAM, dsb&hellip;) <br />+ Pencatatan Biaya Dibayar Dimuka (Sewa Ruko, Iklan Per Tahun, dsb&hellip;) <br />+ Pencatatan Pendapatan (Bonus Supplier, Bunga Bank, dsb&hellip;) <br />+ Pencatatan Pendapatan Dibayar Dimuka (Sewa Baliho Tahunan, Pembayaran Kontrak Tahunan, dsb&hellip;) <br />+ Pencatatan Mutasi Saldo Antar Kas <br />+ Pencatatan Penyesuaian Jumlah Aset <br />+ Pencatatan Pembelian Aset <br />+ Pencatatan Penjualan Aset <br />+ Laporan Arus Kas Keluar Masuk <br />+ Laporan Transaksi Jurnal Umum <br />+ Laporan Buku Besar <br />+ Laporan Neraca Saldo <br />+ Laporan Neraca</p>
+                                            </p>
+                                        </div>
+
+                                        <div class="card-footer">
+                                            <div class="row">
+                                                <div class="col-sm-5">Free Training : 3x</div>
+                                                <div class="col-sm fw-bold">Sistem Beli : Rp. 3.500.000</div>
+                                                <div class="col-sm fw-bold">Sistem Sewa : Rp. 200.000 / bln</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
+
+                    
                     <div class="card-footer">
-                        <h5>* Harga yang tertera adalah harga non custom / cabang<br />* Setup Cost untuk penambahan client Rp. 200.000,- per pc<br />* Pemanggilan Trainer di luar training Rp 75.000 / 2 jam</h5>
+                        <p class="fs-6 fw-bold">
+                            * Harga yang tertera adalah harga non custom / cabang<br />* Setup Cost untuk penambahan client Rp. 200.000,- per pc<br />* Pemanggilan Trainer di luar training Rp 75.000 / 2 jam
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="container my-5">
-            <div class="card text-dark bg-light">
-                <h3 class="text-center mt-3">Fasilitas Lain</h3>
-
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-sm mb-3">
-                            <div class="card text-dark bg-light">
-                                <div class="card-header"><h5>Management Consultant</h5></div>
-                                <div class="card-body" style="min-height: 220px;">
-                                    <p class="card-text">
-                                        <p>+ Konsultasi<br />+ Implementasi<br />+ Inspeksi<br />+ Pemeliharaan Berjalan<br />+ Remote Via Team Viewer<br />+ Auto Updater (Otomatis update apabila ada)</p>
-                                    </p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="row">
-                                        <div class="col-sm fw-bold">Rp. 350.000 / bln per database</div>
+            <div class="container">
+                <div class="card text-dark bg-light my-5">
+                    <h3 class="text-center mt-3">Fasilitas Lain</h3>
+    
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm mb-3">
+                                <div class="card text-dark bg-light">
+                                    <div class="card-header"><h5>Berlangganan</h5></div>
+                                    <div class="card-body" style="min-height: 220px;">
+                                        <p class="card-text">
+                                            <p>+ Konsultasi<br />+ Implementasi<br />+ Inspeksi<br />+ Pemeliharaan Berjalan<br />+ Remote Via Team Viewer<br />+ Auto Updater (Otomatis update apabila ada)</p>
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col-sm fw-bold">Rp. 350.000 / bln per database</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="col-sm mb-3">
-                            <div class="card text-dark bg-light"">
-                                <div class="card-header"><h5>Berlangganan</h5></div>
-                                <div class="card-body" style="min-height: 220px;">
-                                    <p class="card-text">
-                                        <p>+ Mengetahui permasalahan yang MENGHAMBAT di perusahaan Anda<br />+ Menentukan Solusi yang Tepat Untuk Masalah yang Menghambat<br />+ Penerapan Solusi yang Telah disepakati dan melakukan evaluasi secara berkala</p>
-                                    </p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="row">
-                                        <div class="col-sm fw-bold">Rp. 350.000 / bln per kantor cabang</div>
+    
+                            <div class="col-sm mb-3">
+                                <div class="card text-dark bg-light"">
+                                    <div class="card-header"><h5>Management Consultant</h5></div>
+                                    <div class="card-body" style="min-height: 220px;">
+                                        <p class="card-text">
+                                            <p>+ Mengetahui permasalahan yang MENGHAMBAT di perusahaan Anda<br />+ Menentukan Solusi yang Tepat Untuk Masalah yang Menghambat<br />+ Penerapan Solusi yang Telah disepakati dan melakukan evaluasi secara berkala</p>
+                                        </p>
                                     </div>
-                                </div>
-                            </div>      
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col-sm fw-bold">Rp. 350.000 / bln per kantor cabang</div>
+                                        </div>
+                                    </div>
+                                </div>      
+                            </div>
+                        </div>
+                        
+                        <div class="row mb-3">
+                            <div class="col">
+                                <div class="card text-dark bg-light">
+                                    <div class="card-header"><h5>Online</h5></div>
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            <p>+ Dapat dioperasikan dari mana saja selama terkoneksi internet dan program sudah di install.</p>
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col-sm fw-bold">Rp. 500.000 (2 jam / pertemuan)</div>
+                                        </div>
+                                    </div>
+                                </div>      
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="row mb-3">
-                        <div class="col">
-                            <div class="card text-dark bg-light">
-                                <div class="card-header"><h5>Online</h5></div>
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <p>+ Dapat dioperasikan dari mana saja selama terkoneksi internet dan program sudah di install.</p>
-                                    </p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="row">
-                                        <div class="col-sm fw-bold">Rp. 500.000 (2 jam / pertemuan)</div>
-                                    </div>
-                                </div>
-                            </div>      
-                        </div>
-                    </div>
-                </div>
-            </div>            
+                </div> 
+            </div>
         </div>
+
+
         <!-- end price list -->
 
         <!-- start RAB -->
@@ -585,7 +631,7 @@
                                                 </div>
                                                 <div class="card-footer">
                                                     <div class="row">
-                                                        <div class="col-sm fw-bold text-end">Harga Perkiraan Rp. 5.000.000</div>
+                                                        <div class="col fw-bold text-end">Harga Perkiraan Rp. 5.000.000</div>
                                                     </div>
                                                 </div>
                                             </div> 
@@ -593,6 +639,10 @@
                                             <div class="card text-dark bg-light mb-3">
                                                 <div class="card-header"><h5>PC All In One</h5></div>
                                                 <div class="card-body">
+                                                    <div class="text-center">
+                                                        <img src="img/komputer/pc-allinone.jpg" width="300" class="rounded-circle">
+                                                    </div>
+
                                                     <p class="card-text">
                                                         <div class="row">
                                                             <div class="col-6">
@@ -618,7 +668,7 @@
                                                 </div>
                                                 <div class="card-footer">
                                                     <div class="row">
-                                                        <div class="col-sm fw-bold text-end">Harga Perkiraan Rp. 6.000.000</div>
+                                                        <div class="col fw-bold text-end">Harga Perkiraan Rp. 6.000.000</div>
                                                     </div>
                                                 </div>
                                             </div> 
@@ -626,6 +676,10 @@
                                             <div class="card text-dark bg-light mb-3">
                                                 <div class="card-header"><h5>Laptop</h5></div>
                                                 <div class="card-body">
+                                                    <div class="text-center">
+                                                        <img src="img/komputer/laptop.jpg" width="300" class="rounded-circle">
+                                                    </div>
+
                                                     <p class="card-text">
                                                         <div class="row">
                                                             <div class="col-6">
@@ -651,7 +705,7 @@
                                                 </div>
                                                 <div class="card-footer">
                                                     <div class="row">
-                                                        <div class="col-sm fw-bold text-end">Harga Perkiraan Rp. 4.500.000 s/d Rp. 5.500.000</div>
+                                                        <div class="col fw-bold text-end">Harga Perkiraan Rp. 4.500.000 s/d Rp. 5.500.000</div>
                                                     </div>
                                                 </div>
                                             </div> 
@@ -670,49 +724,48 @@
                                     <div class="card-body">
                                         <p class="card-text">
 
-                                            <div class="card text-dark bg-light mb-3">
-                                                <div class="card-header"><h5>Manual Cutter <div class="fw-bold">(Recommended)</div></h5></div>
+                                            <p>
+                                                <h5>Manual Cutter (Recommended)</h5>Kertas struk pada printer ini disobek dengan menggunakan tangan, namun lebih banyak dipilih karena tidak jauh berbeda dengan printer yang memiliki fitur auto cutter dan dilihat dari segi harganya pun sangat disarankan karna memiliki selisih cukup jauh dengan printer auto cutter dengan kualitas yang sama.
+                                            </p>
+
+                                            <p>
+                                                <h5>Auto Cutter</h5>Printer ini defaultnya membuat struk otomatis terpotong sehingga hasilnya akan selalu rapi, namun dapat di buat manual apabila diperlukan.
+                                            </p>
+
+                                            <div class="card text-dark bg-light mt-1 mb-3">
+                                                <div class="card-header"><h5>58 mm</h5></div>
                                                 <div class="card-body">
+                                                    <div class="text-center">
+                                                        <img src="img/printer/thermal-58mm.jpg" width="300" class="rounded-circle">
+                                                    </div>
+
                                                     <p class="card-text">
-                                                        <p>Kertas struk pada printer ini disobek dengan menggunakan tangan, namun lebih banyak dipilih karena tidak jauh berbeda dengan printer yang memiliki fitur auto cutter dan dilihat dari segi harganya pun sangat disarankan karna memiliki selisih cukup jauh dengan printer auto cutter dengan kualitas yang sama.</p>
-                                                        
-                                                        <div class="card text-dark bg-light mb-3">
-                                                            <div class="card-header"><h5>58 mm</h5></div>
-                                                            <div class="card-body">
-                                                                <p class="card-text">
-                                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus officiis at quae reiciendis quasi, delectus ea doloribus, iure tenetur consectetur quam dicta facere sint temporibus quia veniam vero aut neque?</p>                                                                    
-                                                                </p>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="card text-dark bg-light mb-3">
-                                                            <div class="card-header"><h5>80 mm</h5></div>
-                                                            <div class="card-body">
-                                                                <p class="card-text">
-                                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus officiis at quae reiciendis quasi, delectus ea doloribus, iure tenetur consectetur quam dicta facere sint temporibus quia veniam vero aut neque?</p>                                                                    
-                                                                </p>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="card text-dark bg-light mb-3">
-                                                            <div class="card-header"><h5>A5 / A4</h5></div>
-                                                            <div class="card-body">
-                                                                <p class="card-text">
-                                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus officiis at quae reiciendis quasi, delectus ea doloribus, iure tenetur consectetur quam dicta facere sint temporibus quia veniam vero aut neque?</p>                                                                    
-                                                                </p>
-                                                            </div>
-                                                        </div>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus officiis at quae reiciendis quasi, delectus ea doloribus, iure tenetur consectetur quam dicta facere sint temporibus quia veniam vero aut neque?</p>                                                                    
                                                     </p>
                                                 </div>
-                                            </div> 
+                                            </div>
 
                                             <div class="card text-dark bg-light mb-3">
-                                                <div class="card-header"><h5>Auto Cutter</h5></div>
+                                                <div class="card-header"><h5>80 mm</h5></div>
                                                 <div class="card-body">
+                                                    <div class="text-center">
+                                                        <img src="img/printer/thermal-80mm.jpg" width="300" class="rounded-circle">
+                                                    </div>
+
                                                     <p class="card-text">
-                                                        <div class="row">
-                                                            <p>Printer ini defaultnya membuat struk otomatis terpotong sehingga hasilnya akan selalu rapi, namun dapat di buat manual apabila diperlukan.</p>
-                                                        </div>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus officiis at quae reiciendis quasi, delectus ea doloribus, iure tenetur consectetur quam dicta facere sint temporibus quia veniam vero aut neque?</p>                                                                    
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="card text-dark bg-light mb-3">
+                                                <div class="card-header"><h5>A5 / A4</h5></div>
+                                                <div class="card-body">
+                                                    <div class="text-center">
+                                                        <img src="img/printer/dotmatrix-lx310.jpg" width="300">
+                                                    </div>
+                                                    <p class="card-text">
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus officiis at quae reiciendis quasi, delectus ea doloribus, iure tenetur consectetur quam dicta facere sint temporibus quia veniam vero aut neque?</p>                                                                    
                                                     </p>
                                                 </div>
                                             </div>
@@ -732,14 +785,47 @@
                                     <div class="card-body">
                                         <p class="card-text">
 
-                                            <div class="card text-dark bg-light mb-3">
-                                                <div class="card-header"><h5>Lorem ipsum dolor sit amet.</h5></div>
-                                                <div class="card-body">
-                                                    <p class="card-text">
-                                                        <div class="row">
-                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero dolorum est error exercitationem reiciendis, optio debitis perferendis eos sequi quos, ipsa dolor ipsam, saepe laborum? Accusamus aperiam tempore fugiat?</p>
+                                            <div class="row">
+                                                <div class="col-sm">
+
+                                                    <div class="card text-dark bg-light mb-3" style="min-height: 550px;">
+                                                        <div class="card-header"><h5>Lorem ipsum dolor sit amet.</h5></div>
+                                                        <div class="card-body">
+                                                            <div class="row">
+                                                                <div class="text-center">
+                                                                    <img src="img/printer/barcode-printer.jpg" width="300" class="rounded-circle">
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <p class="card-text">
+                                                                <div class="row">
+                                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero dolorum est error exercitationem reiciendis, optio debitis perferendis eos sequi quos, ipsa dolor ipsam, saepe laborum? Accusamus aperiam tempore fugiat?</p>
+                                                                </div>
+                                                            </p>
                                                         </div>
-                                                    </p>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-sm">
+
+                                                    <div class="card text-dark bg-light mb-3" style="min-height: 550px;">
+                                                        <div class="card-header"><h5>Lorem ipsum dolor sit amet.</h5></div>
+                                                        <div class="card-body">
+                                                            <div class="row">
+        
+                                                                <div class="text-center">
+                                                                    <img src="img/printer/barcode-label.png" width="300" class="rounded-circle">
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <p class="card-text">
+                                                                <div class="row">
+                                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero dolorum est error exercitationem reiciendis, optio debitis perferendis eos sequi quos, ipsa dolor ipsam, saepe laborum? Accusamus aperiam tempore fugiat?</p>
+                                                                </div>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
                                                 </div>
                                             </div>
 
@@ -762,6 +848,10 @@
                                                 <div class="card-header"><h5>Laser</h5></div>
                                                 <div class="card-body">
                                                     <p class="card-text">
+                                                        <div class="text-center">
+                                                            <img src="img/printer/printer-laporan-laser.jpg" width="300" class="rounded-circle">
+                                                        </div>
+
                                                         <div class="row">
                                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero dolorum est error exercitationem reiciendis, optio debitis perferendis eos sequi quos, ipsa dolor ipsam, saepe laborum? Accusamus aperiam tempore fugiat?</p>
                                                         </div>
@@ -773,17 +863,10 @@
                                                 <div class="card-header"><h5>Tinta</h5></div>
                                                 <div class="card-body">
                                                     <p class="card-text">
-                                                        <div class="row">
-                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero dolorum est error exercitationem reiciendis, optio debitis perferendis eos sequi quos, ipsa dolor ipsam, saepe laborum? Accusamus aperiam tempore fugiat?</p>
+                                                        <div class="text-center">
+                                                            <img src="img/printer/printer-laporan-tinta-infus-pabrik.jpg" width="300" class="rounded-circle">
                                                         </div>
-                                                    </p>
-                                                </div>
-                                            </div>
 
-                                            <div class="card text-dark bg-light mb-3">
-                                                <div class="card-header"><h5>Dot Matrix</h5></div>
-                                                <div class="card-body">
-                                                    <p class="card-text">
                                                         <div class="row">
                                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero dolorum est error exercitationem reiciendis, optio debitis perferendis eos sequi quos, ipsa dolor ipsam, saepe laborum? Accusamus aperiam tempore fugiat?</p>
                                                         </div>
@@ -807,9 +890,28 @@
                                         <p class="card-text">
 
                                             <div class="card text-dark bg-light mb-3">
-                                                <div class="card-header"><h5>Lorem ipsum dolor sit amet.</h5></div>
+                                                <div class="card-header"><h5>Manual</h5></div>
                                                 <div class="card-body">
                                                     <p class="card-text">
+                                                        <div class="text-center">
+                                                            <img src="img/barcode-scanner/barcode-scanner-manual.jpg" width="300" class="rounded-circle">
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero dolorum est error exercitationem reiciendis, optio debitis perferendis eos sequi quos, ipsa dolor ipsam, saepe laborum? Accusamus aperiam tempore fugiat?</p>
+                                                        </div>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="card text-dark bg-light mb-3">
+                                                <div class="card-header"><h5>Duduk</h5></div>
+                                                <div class="card-body">
+                                                    <p class="card-text">
+                                                        <div class="text-center">
+                                                            <img src="img/barcode-scanner/barcode-scanner-duduk.jpg" width="300" class="rounded-circle">
+                                                        </div>
+
                                                         <div class="row">
                                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero dolorum est error exercitationem reiciendis, optio debitis perferendis eos sequi quos, ipsa dolor ipsam, saepe laborum? Accusamus aperiam tempore fugiat?</p>
                                                         </div>
@@ -836,6 +938,10 @@
                                                 <div class="card-header"><h5>Lorem ipsum dolor sit amet.</h5></div>
                                                 <div class="card-body">
                                                     <p class="card-text">
+                                                        <div class="text-center">
+                                                            <img src="img/cash-drawer/cash-drawer.jpg" width="300">
+                                                        </div>
+                                                        
                                                         <div class="row">
                                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero dolorum est error exercitationem reiciendis, optio debitis perferendis eos sequi quos, ipsa dolor ipsam, saepe laborum? Accusamus aperiam tempore fugiat?</p>
                                                         </div>
@@ -862,6 +968,25 @@
                                                 <div class="card-header"><h5>Lorem ipsum dolor sit amet.</h5></div>
                                                 <div class="card-body">
                                                     <p class="card-text">
+                                                        <div class="text-center">
+                                                            <img src="img/ups/ups-700va.jpg" width="300">
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero dolorum est error exercitationem reiciendis, optio debitis perferendis eos sequi quos, ipsa dolor ipsam, saepe laborum? Accusamus aperiam tempore fugiat?</p>
+                                                        </div>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="card text-dark bg-light mb-3">
+                                                <div class="card-header"><h5>Lorem ipsum dolor sit amet.</h5></div>
+                                                <div class="card-body">
+                                                    <p class="card-text">
+                                                        <div class="text-center">
+                                                            <img src="img/ups/ups-1200va.jpg" width="300">
+                                                        </div>
+
                                                         <div class="row">
                                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero dolorum est error exercitationem reiciendis, optio debitis perferendis eos sequi quos, ipsa dolor ipsam, saepe laborum? Accusamus aperiam tempore fugiat?</p>
                                                         </div>
